@@ -1,0 +1,139 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://th.bing.com/th/id/R.2cd29d475090e0f62f6511228e01bf6a?rik=6qIdt9lFKqZUYQ&pid=ImgRaw&r=0') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.container {
+  width: 100%;
+  max-width: 600px; 
+  padding: 30px;
+  background: rgba(117, 205, 240, 0.9);
+  
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.input-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.input-group input[type="password"] {
+  font-family: Arial, sans-serif;
+}
+
+.input-group button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e78f0a;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background-color: #bb822d;
+  color: #333;
+}
+
+.form-footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.form-footer a {
+  color: #9ecaf1;
+  text-decoration: none;
+}
+
+
+@media (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 85%;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .input-group input, .input-group button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .input-group input, .input-group button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .input-group label {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+
+ 
+
+  
